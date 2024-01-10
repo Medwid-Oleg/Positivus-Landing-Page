@@ -4,6 +4,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="css/styles.css">
+	<link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
 	<title>Positivus</title>
 </head>
 <body>
@@ -399,7 +400,7 @@
 		</div>
 
 		<div class="contact-block grey-background">
-			<form action="#">
+			<form action="#" id="form">
 				<div class="radio-buttons">
 					<label class="label-radio" for="hi">
 						<input type="radio" name="contact" id="hi">
@@ -413,11 +414,11 @@
 				<div class="fields">
 					<label for="name">
 						Name
-						<input type="text" name="name" id="name" placeholder="Name">
+						<input type="text" name="name" id="name" placeholder="Name" required>
 					</label>
 					<label for="email">
 						Email*
-						<input type="email" name="email" id="email" placeholder="Email">
+						<input type="email" name="email" id="email" placeholder="Email" required>
 					</label>
 					<label for="message">
 						Message*
@@ -481,5 +482,6 @@
 			</div>
 		</footer>
 	</div>
+	<script src="script.js"></script>
 </body>
 </html>
