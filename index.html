@@ -40,7 +40,7 @@
 				<div class="header-textAdnBtn-container">
 					<h1 class="header-title">Navigating the digital landscape for success</h1>
 					<p class="header-descripion">Our digital marketing agency helps businesses grow and succeed online through a range of services including SEO, PPC, social media marketing, and content creation.</p>
-					<button class="header-btn">Book a consultation</button>
+					<button class="header-btn btn-click">Book a consultation</button>
 				</div>
 				<img src="img/headerIllustration.svg" alt="headerIllustration" class="header-illustration">
 			</div>
@@ -144,7 +144,7 @@
 			<div class="cta-textAndBtn-container">
 				<h3>Let’s make things happen</h3>
 				<p>Contact us today to learn more about how our digital marketing services can help your business grow and succeed online.</p>
-				<button class="cta-btn">Get your free proporal</button>
+				<button class="cta-btn btn-click">Get your free proporal</button>
 			</div>
 			<img src="img/Illustration1.svg" alt="illustration1">
 		</div>
@@ -155,8 +155,9 @@
 			<h2 class="green-background">Case Studies</h2>
 			<p>Explore Real-Life Examples of Our Proven Digital Marketing Success through Our Case Studies</p>
 		</div>
-
-		<div class="case-studies">
+	</div>
+	<div class="wrapper case-studies-wrapper">
+		<div class="case-studies-container">
 			<div class="case-study">
 				<p class="case-study-desctiption">For a local restaurant, we implemented a targeted PPC campaign that resulted in a 50% increase in website traffic and a 25% increase in sales.</p>
 				<div class="case-study-link">
@@ -190,64 +191,78 @@
 		</div>
 
 		<div class="process-block">
-
-			<div class="process-open-card green-background">
-				<div class="process-open-card-content">
-					<div class="about-open-card">
+			<div class="process-card open-card grey-background" data-state="expanded">
+				<div class="process-card-content">
+					<div class="about-card">
 						<span>01</span>
 						<p>Consultation</p>
 					</div>
-					<img src="img/Minus icon.svg" alt="minus">
+					<img class="process-card-icon" src="img/MinusIcon.svg" alt="minus">
 				</div>
 				<hr>
-				<p class="process-open-card-description">During the initial consultation, we will discuss your business goals and objectives, target audience, and current marketing efforts. This will allow us to understand your needs and tailor our services to best fit your requirements.</p>
+				<p class="process-card-description">During the initial consultation, we will discuss your business goals and objectives, target audience, and current marketing efforts. This will allow us to understand your needs and tailor our services to best fit your requirements.</p>
 			</div>
 
-			<div class="process-card grey-background">
+			<div class="process-card grey-background" data-state="collapsed">
 				<div class="process-card-content">
 					<div class="about-card">
 						<span>02</span>
-						<p>Research and Strategy Development</p>
+						<p>Research and Strategy Dev</p>
 					</div>
-					<img src="img/Plus icon.png" alt="plus">
+					<img class="process-card-icon" src="img/PlusIcon.svg" alt="plus">
 				</div>
+				<hr>
+				<p class="process-card-description">During the initial consultation, we will discuss your business goals and objectives, target audience, and current marketing efforts. This will allow us to understand your needs and tailor our services to best fit your requirements.</p>
 			</div>
-			<div class="process-card grey-background">
+
+			<div class="process-card grey-background" data-state="collapsed">
 				<div class="process-card-content">
 					<div class="about-card">
 						<span>03</span>
 						<p>Implementation</p>
 					</div>
-					<img src="img/Plus icon.png" alt="plus">
+					<img class="process-card-icon" src="img/PlusIcon.svg" alt="plus">
 				</div>
+				<hr>
+				<p class="process-card-description">During the initial consultation, we will discuss your business goals and objectives, target audience, and current marketing efforts. This will allow us to understand your needs and tailor our services to best fit your requirements.</p>
 			</div>
-			<div class="process-card grey-background">
+
+			<div class="process-card grey-background" data-state="collapsed">
 				<div class="process-card-content">
 					<div class="about-card">
 						<span>04</span>
 						<p>Monitoring and Optimization</p>
 					</div>
-					<img src="img/Plus icon.png" alt="plus">
+					<img class="process-card-icon" src="img/PlusIcon.svg" alt="plus">
 				</div>
+				<hr>
+				<p class="process-card-description">During the initial consultation, we will discuss your business goals and objectives, target audience, and current marketing efforts. This will allow us to understand your needs and tailor our services to best fit your requirements.</p>
 			</div>
-			<div class="process-card grey-background">
+
+			<div class="process-card grey-background" data-state="collapsed">
 				<div class="process-card-content">
 					<div class="about-card">
 						<span>05</span>
 						<p>Reporting and Communication</p>
 					</div>
-					<img src="img/Plus icon.png" alt="plus">
+					<img class="process-card-icon" src="img/PlusIcon.svg" alt="plus">
 				</div>
+				<hr>
+				<p class="process-card-description">During the initial consultation, we will discuss your business goals and objectives, target audience, and current marketing efforts. This will allow us to understand your needs and tailor our services to best fit your requirements.</p>
 			</div>
-			<div class="process-card grey-background">
+
+			<div class="process-card grey-background" data-state="collapsed">
 				<div class="process-card-content">
 					<div class="about-card">
 						<span>06</span>
 						<p>Continual Improvement</p>
 					</div>
-					<img src="img/Plus icon.png" alt="plus">
+					<img class="process-card-icon" src="img/PlusIcon.svg" alt="plus">
 				</div>
+				<hr>
+				<p class="process-card-description">During the initial consultation, we will discuss your business goals and objectives, target audience, and current marketing efforts. This will allow us to understand your needs and tailor our services to best fit your requirements.</p>
 			</div>
+
 		</div>
 	</div>
 
@@ -335,9 +350,33 @@
 				<hr>
 				<p class="team-card-description">2+ years of experience in writing and editing Skilled in creating compelling, SEO-optimized content for various industries</p>
 			</div>
+			<div class="team-card hidden">
+				<div class="person">
+					<img src="img/sarahKimPicture.svg" alt="johnSmith">
+					<div class="about-person">
+						<h4>Sarah Kim</h4>
+						<p>Content Creator</p>
+					</div>
+					<img class="person-linkedin" src="img/linkedin1.svg" alt="linkedin">
+				</div>
+				<hr>
+				<p class="team-card-description">2+ years of experience in writing and editing Skilled in creating compelling, SEO-optimized content for various industries</p>
+			</div>
+			<div class="team-card hidden">
+				<div class="person">
+					<img src="img/sarahKimPicture.svg" alt="johnSmith">
+					<div class="about-person">
+						<h4>Sarah Kim</h4>
+						<p>Content Creator</p>
+					</div>
+					<img class="person-linkedin" src="img/linkedin1.svg" alt="linkedin">
+				</div>
+				<hr>
+				<p class="team-card-description">2+ years of experience in writing and editing Skilled in creating compelling, SEO-optimized content for various industries</p>
+			</div>
 		</div>
 		<div class="team-btn-container">
-			<button class="team-btn">See all team</button>
+			<button class="team-btn btn-click">See all team</button>
 		</div>
 	</div>
 
@@ -377,18 +416,36 @@
 						<p>Marketing Director at XYZ Corp</p>
 					</div>
 				</div>
+				<div class="testimonial">
+					<div class="testimonial-card">
+						<p>"We have been working with Positivus for the past year and have seen a significant increase in website traffic and leads as a result of their efforts. The team is professional, responsive, and truly cares about the success of our business. We highly recommend Positivus to any company looking to grow their online presence."</p>
+					</div>
+					<div class="testimonial-description">
+						<h4>John Smith</h4>
+						<p>Marketing Director at XYZ Corp</p>
+					</div>
+				</div>
+				<div class="testimonial">
+					<div class="testimonial-card">
+						<p>"We have been working with Positivus for the past year and have seen a significant increase in website traffic and leads as a result of their efforts. The team is professional, responsive, and truly cares about the success of our business. We highly recommend Positivus to any company looking to grow their online presence."</p>
+					</div>
+					<div class="testimonial-description">
+						<h4>John Smith</h4>
+						<p>Marketing Director at XYZ Corp</p>
+					</div>
+				</div>
 			</div>
 
 			<div class="testimonials-nav">
-				<img src="img/Arrow left.svg" alt="arrow left">
+				<img src="img/ArrowLeftGrey.svg" alt="arrow left" class="prev">
 				<div class="nav-stars">
-					<img src="img/greenStar.svg" alt="greenStar">
-					<img src="img/whiteStar.svg" alt="whiteStar">
-					<img src="img/whiteStar.svg" alt="whiteStar">
-					<img src="img/whiteStar.svg" alt="whiteStar">
-					<img src="img/whiteStar.svg" alt="whiteStar">
+					<img src="img/greenStar.svg" alt="greenStar" class="testimonials-nav-star active" data-state="1">
+					<img src="img/whiteStar.svg" alt="whiteStar" class="testimonials-nav-star" data-state="2">
+					<img src="img/whiteStar.svg" alt="whiteStar" class="testimonials-nav-star" data-state="3">
+					<img src="img/whiteStar.svg" alt="whiteStar" class="testimonials-nav-star" data-state="4">
+					<img src="img/whiteStar.svg" alt="whiteStar" class="testimonials-nav-star" data-state="5">
 				</div>
-				<img src="img/Arrow right.svg" alt="arrow right">
+				<img src="img/ArrowRightWhite.svg" alt="arrow right" class="next">
 			</div>
 		</div>
 	</div>
@@ -400,7 +457,7 @@
 		</div>
 
 		<div class="contact-block grey-background">
-			<form action="#" id="form">
+			<form action="#" id="form" class="contact-form">
 				<div class="radio-buttons">
 					<label class="label-radio" for="hi">
 						<input type="radio" name="contact" id="hi">
@@ -414,7 +471,7 @@
 				<div class="fields">
 					<label for="name">
 						Name
-						<input type="text" name="name" id="name" placeholder="Name" required>
+						<input type="text" name="name" id="name" placeholder="Name">
 					</label>
 					<label for="email">
 						Email*
@@ -425,7 +482,7 @@
 						<textarea name="message" id="message" cols="30" rows="10" placeholder="Message"></textarea>
 					</label>
 				</div>
-				<button type="submit" class="contact-btn">Send Message</button>
+				<button type="submit" class="contact-btn btn-click">Send Message</button>
 			</form>
 			<img class="formIllustration" src="img/formIllustration (1).svg" alt="formIllustration">
 		</div>
@@ -455,9 +512,15 @@
 					</ul>
 				</nav>
 				<div class="nav-logos">
-					<img src="img/linkedinDark.svg" alt="linkedin">
-					<img src="img/facebook.svg" alt="facebook">
-					<img src="img/twitter.svg" alt="twitter">
+					<a href="#">
+						<img src="img/linkedinDark.svg" alt="linkedin">
+					</a>
+					<a href="#">
+						<img src="img/facebook.svg" alt="facebook">
+					</a>
+					<a href="#">
+						<img src="img/twitter.svg" alt="twitter">
+					</a>
 				</div>
 			</div>
 			<div class="footer-content">
@@ -470,10 +533,10 @@
 						<span>Main St Moonstone City, Stardust State 12345</span>
 					</address>
 				</div>
-				<div class="subscription-block">
-					<input type="email" class="subscription-email" placeholder="Email">
-					<button type="submit" class="subscription-btn green-background">Subscribe to news</button>
-				</div>
+				<form action="#" class="subscription-form" id="subscription-form">
+					<input type="email" class="subscription-email" placeholder="Email"- required>
+					<button type="submit" class="subscription-btn green-background btn-click">Subscribe to news</button>
+				</form>
 			</div>
 			<hr class="footer-hr">
 			<div class="rightsAndPolicy">
